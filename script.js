@@ -248,8 +248,7 @@ var passwordGenerate = function(lengthNum, lowerCase, uppperCase, numericCase, s
 }
 
 var generatePassword = function() {
-  var result = ""; //
-  window.alert("test");
+  var result = "";
   var lengthNum = getLength();
   var lowerCase = getCharacterType("Lowercase Letters");
   var uppperCase = getCharacterType("Upppercase Letters");
