@@ -261,9 +261,9 @@ var generatePassword = function() {
     numericCase = getCharacterType("Numeric Character");
     specialCase = getCharacterType("Special Character");
   }
-  //double check critea
+  //double check criteria
   var check = window.confirm(
-    "Your password critea is: " + 
+    "Your password criteria is: " + 
     "\nPassword Length is: " + lengthNum +
     "\nLowercase Letters is: " + lowerCase +
     "\nUppercase Letters is: " + uppperCase +
